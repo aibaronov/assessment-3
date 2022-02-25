@@ -15,3 +15,26 @@ function ritualAlert(){
 colorBtn.addEventListener('click', colorAlert);
 placeBtn.addEventListener('click', placeAlert);
 ritualBtn.addEventListener('click', ritualAlert);
+
+// const profileBtns = document.querySelectorAll("button");
+
+// profileBtns.forEach((button) => {
+//     button.addEventListener("Click", (event)=>{
+//         let favorite = "";
+//         switch(event.target.id){
+//             case "color":
+//                 favorite = "Blue";
+//                 break;
+            
+//             case "place":
+//                 favorite = "My Bed";
+//                 break;
+
+//             case "ritual":
+//                 favorite = "Sleeping";
+//                 break;
+//         }
+//         alert(`My favorite ${event.target.id} is ${favorite}.`)
+//     })
+// }
+// )
